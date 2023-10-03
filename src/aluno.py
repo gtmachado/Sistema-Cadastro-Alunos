@@ -47,4 +47,4 @@ class Aluno:
         self.__id = aluno_id
 
     def __str__(self):
-        return f'\n\nID: {self.get_id()}\nNome: {self.nome},\nSobrenome: {self.sobrenome}\nMatrícula: {self.matricula}\nIdade: {self.idade}\nEmail: {self.email}'
+        return f'\n\nID: {self.get_id()}\nNome: {self.nome}\nSobrenome: {self.sobrenome}\nMatrícula: {self.matricula}\nIdade: {self.idade}\nEmail: {self.email}'

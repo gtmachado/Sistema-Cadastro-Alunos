@@ -28,7 +28,7 @@ while True:
         idade = input("Idade: ")
         email = input("Email: ")
         id_aluno = sistema.cadastrar_aluno(Aluno(nome, sobrenome, matricula, idade, email ))
-        print("\nAluno cadastrado com sucesso! com ID: {id_aluno}\n\n")
+        print("\nAluno cadastrado com sucesso!\n\n")
 
     elif escolha_menu == "2": 
         
