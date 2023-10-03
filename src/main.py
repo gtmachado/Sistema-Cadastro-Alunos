@@ -49,7 +49,6 @@ while True:
         sistema.atualizar_aluno(id_aluno, novo_nome, novo_sobrenome, nova_matricula, nova_idade, novo_email)
         print("\n\nAluno atualizado com sucesso.\n\n")
 
-
     elif escolha_menu == "4":
          
         id_aluno = int(input("ID do Aluno a ser deletado: "))

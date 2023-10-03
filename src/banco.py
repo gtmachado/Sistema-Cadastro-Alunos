@@ -31,8 +31,6 @@ class Banco_Dados:
             UPDATE Aluno SET Nome=?, Sobrenome=?, Matricula=?, Idade=?, Email=? WHERE ID_Aluno=?
         ''', (novo_nome, novo_sobrenome,nova_matricula, nova_idade, novo_email, aluno_id))
         self.conn.commit()
-        cursor = self.conn.execute('SELECT * FROM Aluno')
-        return cursor.fetchall()
         
     def deletar_aluno(self, aluno_id):
         self.conn.execute('DELETE FROM Aluno WHERE ID_Aluno=?', (aluno_id,))
